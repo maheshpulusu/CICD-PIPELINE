@@ -1,9 +1,8 @@
-resource "aws_s3_bucket" "bucklebuckmaha" {
-  bucket = "my-tf-massiveprince-bucK1"
-  acl    = "private"
+resource "aws_s3_bucket" "jmks" {
+  bucket = "newikskt"
 
   tags = {
-    Name        = "rav1"
+    Name        = "My bucket"
     Environment = "Dev"
   }
 }
