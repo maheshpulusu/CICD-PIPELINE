@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "bucklebuck" {
+resource "aws_s3_bucket" "bucklebuckmaha" {
   bucket = "my-tf-massiveprince-bucK1"
   acl    = "private"
 
